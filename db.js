@@ -2,7 +2,7 @@ const knex = require('knex');
 const db = knex({
   client: 'pg',
   connection: {
-    connectionString: 'postgres://mtg_champs_db_user:jS9d2EinY930hI5dyVMTgK3LPILQCFT2@dpg-chiclat269vf5qd8aalg-a.singapore-postgres.render.com/mtg_champs_db',
+    connectionString: 'postgres://express_api_db_dj8d_user:hQjWmLPCmmejR0MXzOginFxRrCdjp8mC@dpg-ci8bvrenqql0ldafkg20-a.singapore-postgres.render.com/express_api_db_dj8d',
     ssl: {
       rejectUnauthorized: false
     }
